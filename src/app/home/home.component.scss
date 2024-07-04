@@ -118,8 +118,7 @@ h2 svg{
 .flip_back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  padding: 10px;
-  background: #fff;
+  background: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;

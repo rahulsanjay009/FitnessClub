@@ -20,7 +20,7 @@ app.use((req,res,next)=>{
     res.send({message:`${req.url} is invalid!`});
 });
 
-var dbUrl="mongodb+srv://baka:ittop@cluster0-ebc9w.mongodb.net/test?retryWrites=true&w=majority";
+var dbUrl="mongodb+srv://rahulsanjay:Chinni@2504@fitnessclub.pz9yjvy.mongodb.net/?retryWrites=true&w=majority&appName=FitnessClub";
 mc.connect(dbUrl,{useNewUrlParser:true,useUnifiedTopology:true},(err,client)=>{
     if(err)
     {

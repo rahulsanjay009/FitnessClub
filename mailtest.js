@@ -5,8 +5,8 @@ let transporter=nodemailer.createTransport({
     secure: false,
     port: 25,
     auth: {
-        user: 'abbhinav.nomulla656@gmail.com',
-        pass: 'bakaittop'
+        user: 'rahul.sanjay009@gmail.com',
+        pass: 'Sanjosestate$321'
     },
     tls: {
         rejectUnauthorized: false
@@ -24,9 +24,9 @@ let transporter=nodemailer.createTransport({
     viewPath: './views'
 }));*/
 
-var email='abbhinav.nomulla656@gmail.com';
+var email='rahul.sanjay009@gmail.com';
 let HelperOptions={
-    from: '"abbhinav nomulla" <abbhinav.nomulla656@gmail.com',
+    from: '"Rahul Sanjay M" <rahul.sanjay009@gmail.com',
     to: email,
     cc: 'monadarling858@gmail.com',
     bcc:'gowthamsps98@gmail.com',
